@@ -37,6 +37,7 @@ monitors:
     url: 'https://btla.o16.dev/conashin'
     method: GET
     expectStatus: 200
+    followRedirect: true
     linkable: false
     
   - id: 4n8n
@@ -44,4 +45,5 @@ monitors:
     url: 'https://n8n.aptzinc.uk/'
     method: GET
     expectStatus: 200
+    followRedirect: true
     linkable: false
